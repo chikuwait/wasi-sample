@@ -7,7 +7,7 @@
 
 
 int main(){
-    int fd = open("./text",O_RDONLY);
+    int fd = open("./sample_text",O_RDONLY);
     char buf[100];
     int size;
 
